@@ -112,32 +112,6 @@ ZSchema.setSchemaReader(function (uri) {
 });
 ```
 
-#Features
-
-- [Validate against subschema](#validate-against-subschema)
-- [Compile arrays of schemas and use references between them](#compile-arrays-of-schemas-and-use-references-between-them)
-- [Register a custom format](#register-a-custom-format)
-- [Automatic downloading of remote schemas](#automatic-downloading-of-remote-schemas)
-- [Prefill default values to object using format](#prefill-default-values-to-object-using-format)
-- [Define a custom timeout for all async operations](#asynctimeout)
-- [Disallow validation of empty arrays as arrays](#noemptyarrays)
-- [Disallow validation of empty strings as strings](#noemptystrings)
-- [Disallow schemas that don't have a type specified](#notypeless)
-- [Disallow schemas that contain unrecognized keywords and are not validated by parent schemas](#noextrakeywords)
-- [Assume additionalItems/additionalProperties are defined in schemas as false](#assumeadditional)
-- [Force additionalItems/additionalProperties to be defined in schemas](#forceadditional)
-- [Force items to be defined in array type schemas](#forceitems)
-- [Force minItems to be defined in array type schemas](#forceminitems)
-- [Force maxItems to be defined in array type schemas](#forcemaxitems)
-- [Force minLength to be defined in string type schemas](#forceminlength)
-- [Force maxLength to be defined in string type schemas](#forcemaxlength)
-- [Force properties or patternProperties to be defined in object type schemas](#forceproperties)
-- [Ignore remote references to schemas that are not cached or resolvable](#ignoreunresolvablereferences)
-- [Only allow strictly absolute URIs to be used in schemas](#stricturis)
-- [Turn on z-schema strict mode](#strictmode)
-- [Set validator to collect as many errors as possible](#breakonfirsterror)
-- [Report paths in errors as arrays so they can be processed easier](#reportpathasarray)
-
 ##Validate against subschema
 
 In case you don't want to split your schema into multiple schemas using reference for any reason, you can use option schemaPath when validating:
