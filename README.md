@@ -1,2 +1,1 @@
-# Crypto-Task
-Chat-Cryptyo (task)
+Crypti.Chat Dapp
